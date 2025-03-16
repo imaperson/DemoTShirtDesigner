@@ -11,12 +11,12 @@ A web application that allows users to create custom t-shirt designs. Built with
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/QuocKhanhHuynh/DemoTShirtDesigner.git
 ```
 
 2. Navigate to the project directory:
 ```bash
-cd DemoTShirtDesigner
+cd DemoTShirtDesigner-main
 ```
 
 3. Install dependencies:
