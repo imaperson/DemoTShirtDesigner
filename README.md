@@ -38,30 +38,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will automatically reload when you make changes.\
 You will also see any lint errors in the console.
 
-### Production Build
-
-```bash
-npm run build
-```
-
-This command builds the app for production to the `build` folder.\
-The code will be optimized for best performance.
-
-The build is minified and the filenames include hashes.\
-Your app is ready to be deployed!
-
-## Project Structure
-
-```
-tshirt-designer-react/
-  ├── public/          # Static files
-  ├── src/             # Source code
-  │   ├── components/  # React components
-  │   ├── assets/      # Images, fonts, etc.
-  │   └── App.js       # Main component
-  └── package.json     # Dependencies configuration
-```
-
 ## Features
 
 The demo allows users to design a t-shirt with various customization options on both the front and back of a sample t-shirt model. Users can perform the following actions:
