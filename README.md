@@ -62,17 +62,24 @@ tshirt-designer-react/
   └── package.json     # Dependencies configuration
 ```
 
+## Features
+
+The demo allows users to design a t-shirt with various customization options on both the front and back of a sample t-shirt model. Users can perform the following actions:
+- Change the t-shirt background color.
+- Upload and insert external images.
+- Add text with options to change color, font, bold/italic styling.
+- Insert geometric shapes with customizable fill color, border color, and border thickness.
+- Resize, rotate, move within the allowed area, delete, and copy-paste objects (images, text, shapes).
+- Export the design as a PNG image.
+- Export the design as a JSON file.
+- Import a previously saved JSON design to restore an old design.
+
 ## Technologies Used
 
-- React
-- Create React App
-- React Router
-- [Other libraries used in the project]
+- React vite
+- Tailwind CSS
+- Material UI
 
 ## Contributing
 
 Contributions are welcome. Please feel free to submit issues and pull requests.
-
-## License
-
-[Project License Type]
