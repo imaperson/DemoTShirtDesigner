@@ -1,0 +1,22 @@
+{
+	"name": "Maven",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"mounts": [
+		// "source=/home/ec2-user/.m2,target=/root/.m2,type=bind"
+		"source=${localEnv:HOME}${localEnv:USERPROFILE}/.m2,target=/root/.m2,type=bind"
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-azuretools.vscode-docker",
+				"davidanson.vscode-markdownlint",
+				"eamodio.gitlens",
+				"mhutchie.git-graph",
+			]
+		}
+	},
+	"appPort": ["0.0.0.0:3000:3000"],
+	"remoteUser": "root"
+}
